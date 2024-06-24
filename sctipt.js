@@ -10,7 +10,7 @@ buttonGetSignal.onclick = function() {
     buttonGetSignal.disabled = true;
     let maxSignalNumber = 10;
     const randomPhotoNumber = Math.floor(Math.random() * (maxSignalNumber - 1) + 1);
-    signal.src = `src/signal/${randomPhotoNumber}.jpg`;
+    signal.src = `assets/images/signal/${randomPhotoNumber}.jpg`;
 
   setTimeout(function(){
     loadingSignal.classList.add("deactive");

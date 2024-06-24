@@ -59,7 +59,7 @@ a {
   width: 445px;
   height: 100%;
   background-size: cover;
-  background-image: url("bg.jpg");
+  background-image: url("assets/images/background.jpg");
   position: absolute;
   z-index: -1;
 }
@@ -85,11 +85,15 @@ a {
 }
 
 .game-screen {
-  background-image: url("assets/icons/screen.svg");
-  width: 293px;
-  height: 293px;
+  /* background-image: url("assets/icons/screen.svg"); */
+  background-color: #440c9f;
+  box-shadow: 0px 0px 20px #440c9f;
+  border-width: 10px;
+  border-color: #07103D;
+  border-radius: 5%;
+  width: 290px;
+  height: 290px;
   margin: auto;
-  /* margin-bottom: 50px; */
 }
 
 .screen-active {
@@ -144,18 +148,16 @@ a {
   border: none;
   color: #ffffff;
   width: 286px;
-  height: 14vh;
-  /* background-color: #F39801; */
+  height: 66px;
   background-color: #6835ba;
   cursor: pointer;
-  box-shadow: 0px 0px 20px #f887fc/*#F39801*/;
+  box-shadow: 0px 0px 20px #f887fc;
   border-radius: 8px;
-  /* margin-bottom: 80px; */
 }
 
 .get-signal:hover {
-  box-shadow: 0px 0px 30px #f887fc/*#F39801*/;
-  transition: 0.1s ease-in;
+  box-shadow: 0px 0px 30px #f887fc;
+
 }
 
 .get-signal:active {
