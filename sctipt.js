@@ -8,7 +8,7 @@ buttonGetSignal.onclick = function() {
     screenStart.classList.add("deactive");
     loadingSignal.classList.remove("deactive");
     buttonGetSignal.disabled = true;
-    let maxSignalNumber = 40;
+    let maxSignalNumber = 70;
     const randomPhotoNumber = Math.floor(Math.random() * (maxSignalNumber - 1) + 1);
     signal.src = `assets/images/signal/${randomPhotoNumber}.jpg`;
 
