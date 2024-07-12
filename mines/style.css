@@ -99,10 +99,10 @@ a {
 
 .game-screen {
   /* background-image: url("assets/icons/screen.svg"); */
-  background-color: #440c9f;
+  background-color: #440c9fd7;
   box-shadow: 0px 0px 20px #440c9f;
   border-width: 10px;
-  border-color: #07103D;
+  border-color: #07103d;
   border-radius: 5%;
   width: 290px;
   height: 290px;
