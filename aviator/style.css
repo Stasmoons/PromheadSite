@@ -59,7 +59,7 @@ body {
       transform: translateX(0px) rotateY(0deg);
     } */
   0% {
-      left: -10px;
+      left: -100px;
       transform: translateX(0);
   }
   100% {
@@ -71,6 +71,7 @@ body {
 
 .container {
   position: relative;
+  top: 0;
   width: 398px;
   height: 90vh;
   display: flex;
@@ -153,8 +154,9 @@ body {
 }
 
 .top-content {
-  position: fixed;
-  top: 0;
+  position: relative;
+  top: -10px;
+  margin-bottom: 40px;
 }
 
 .name-bot {
@@ -166,20 +168,19 @@ body {
 }
 
 .print-signal {
-  margin-top: 25%;
-  margin-bottom: 30px;
+  width: 217px;
+  height: 217px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 217px;
-  height: 217px;
   background-color: #151027;
   border: 5px solid #e4063a;
   border-radius: 20%;
   font-size: 3em;
   font-weight: 900;
-  transition: all .5s;
   z-index: 10;
+  transition: background-color .5s, border-color .5s, transform .5s;
 }
 
 .print-signal span {
